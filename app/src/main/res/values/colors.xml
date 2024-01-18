@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="nord1">#303030</color>
+    <color name="nord2">#292929</color>
+    <color name="nord_white">#e5e9f0</color>
+    <color name="nord_green">#a3be8c</color>
+    <color name="nord_yellow">#ebcb8b</color>
+    <color name="transparent">#00E5E9F0</color>
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nord1"
+    tools:context=".QuizPage">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="1000px"
+        android:layout_height="550px"
+        android:layout_marginTop="85dp"
+        android:background="@drawable/square_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAns1"
+        android:layout_width="1000px"
+        android:layout_height="60dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="@font/manrope_semibold"
+        android:background="@drawable/custom_button2"
+        android:text="Button"
+        app:backgroundTint="@color/nord2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/buttonAns2"
+        android:layout_width="1000px"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button2"
+        android:text="Button"
+        app:backgroundTint="@color/nord2"
+        android:fontFamily="@font/manrope_semibold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAns1" />
+
+    <Button
+        android:id="@+id/buttonAns3"
+        android:layout_width="1000px"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button2"
+        android:text="Button"
+        app:backgroundTint="@color/nord2"
+        android:fontFamily="@font/manrope_semibold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAns2" />
+
+    <Button
+        android:id="@+id/buttonAns4"
+        android:layout_width="1000px"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/manrope_semibold"
+        android:background="@drawable/custom_button2"
+        android:text="Button"
+        app:backgroundTint="@color/nord2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAns3" />
+
+    <TextView
+        android:id="@+id/textScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/manrope_semibold"
+        android:text="Score : 0"
+        android:textColor="@color/nord_white"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textQues"
+        android:layout_width="288dp"
+        android:layout_height="132dp"
+        android:fontFamily="@font/manrope_semibold"
+        android:text="The average number of key comparisons done in a successful sequential search in a list of length n is"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/textView6"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="600px"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custom_button2"
+        android:fontFamily="@font/manrope_semibold"
+        android:text="Submit"
+        app:backgroundTint="@color/nord_green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAns4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textQuesNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/manrope_semibold"
+        android:text="1/10"
+        android:textColor="@color/nord_white"
+        app:layout_constraintBottom_toTopOf="@+id/textQues"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

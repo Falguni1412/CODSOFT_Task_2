@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.QuizApp.MySplash" parent="Theme.SplashScreen">
+        <item name="android:windowSplashScreenBackground">#4c566a</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/test</item>
+        <item name="postSplashScreenTheme">@style/Theme.QuizApp</item>
+    </style>
+
+</resources>
